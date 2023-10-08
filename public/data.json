@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "product": "Laptop",
+    "price": 799.99,
+    "image": "https://example.com/laptop.jpg"
+  },
+  {
+    "id": 2,
+    "product": "Smartphone",
+    "price": 399.99,
+    "image": "https://example.com/smartphone.jpg"
+  },
+  {
+    "id": 3,
+    "product": "Headphones",
+    "price": 59.99,
+    "image": "https://example.com/headphones.jpg"
+  },
+  {
+    "id": 4,
+    "product": "Tablet",
+    "price": 299.99,
+    "image": "https://example.com/tablet.jpg"
+  },
+  {
+    "id": 5,
+    "product": "Wireless Mouse",
+    "price": 19.99,
+    "image": "https://example.com/mouse.jpg"
+  },
+  {
+    "id": 6,
+    "product": "Portable Speaker",
+    "price": 49.99,
+    "image": "https://example.com/speaker.jpg"
+  },
+  {
+    "id": 7,
+    "product": "Digital Camera",
+    "price": 349.99,
+    "image": "https://example.com/camera.jpg"
+  },
+  {
+    "id": 8,
+    "product": "Fitness Tracker",
+    "price": 79.99,
+    "image": "https://example.com/fitness.jpg"
+  },
+  {
+    "id": 9,
+    "product": "Gaming Console",
+    "price": 299.99,
+    "image": "https://example.com/console.jpg"
+  },
+  {
+    "id": 10,
+    "product": "External Hard Drive",
+    "price": 89.99,
+    "image": "https://example.com/harddrive.jpg"
+  }
+]
