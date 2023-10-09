@@ -1,62 +1,22 @@
 [
-  {
-    "id": 1,
-    "product": "Laptop",
-    "price": 799.99,
-    "image": "https://example.com/laptop.jpg"
-  },
-  {
-    "id": 2,
-    "product": "Smartphone",
-    "price": 399.99,
-    "image": "https://example.com/smartphone.jpg"
-  },
-  {
-    "id": 3,
-    "product": "Headphones",
-    "price": 59.99,
-    "image": "https://example.com/headphones.jpg"
-  },
-  {
-    "id": 4,
-    "product": "Tablet",
-    "price": 299.99,
-    "image": "https://example.com/tablet.jpg"
-  },
-  {
-    "id": 5,
-    "product": "Wireless Mouse",
-    "price": 19.99,
-    "image": "https://example.com/mouse.jpg"
-  },
-  {
-    "id": 6,
-    "product": "Portable Speaker",
-    "price": 49.99,
-    "image": "https://example.com/speaker.jpg"
-  },
-  {
-    "id": 7,
-    "product": "Digital Camera",
-    "price": 349.99,
-    "image": "https://example.com/camera.jpg"
-  },
-  {
-    "id": 8,
-    "product": "Fitness Tracker",
-    "price": 79.99,
-    "image": "https://example.com/fitness.jpg"
-  },
-  {
-    "id": 9,
-    "product": "Gaming Console",
-    "price": 299.99,
-    "image": "https://example.com/console.jpg"
-  },
-  {
-    "id": 10,
-    "product": "External Hard Drive",
-    "price": 89.99,
-    "image": "https://example.com/harddrive.jpg"
-  }
+  { "id": 1, "product": "Wooden Dining Table", "price": 299.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 2, "product": "Leather Sofa Set", "price": 599.99, "image": "https://ae01.alicdn.com/kf/S916e0c212de149d8a562bf9906cf62082/Nordic-Lounge-Chair-Modern-Living-Room-Makeup-Accent-Chair-Floor-Individual-Armchair-Fauteuil-Salon-Library-Furniture.jpg" },
+  { "id": 3, "product": "Modern Coffee Table", "price": 129.99, "image": "https://m.media-amazon.com/images/I/710Z4427egL.jpg" },
+  { "id": 4, "product": "Queen Size Bed Frame", "price": 449.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 5, "product": "Wardrobe with Mirrors", "price": 379.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 6, "product": "Office Desk with Drawers", "price": 249.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 7, "product": "Bookshelf with Adjustable Shelves", "price": 179.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 8, "product": "Vintage Armchair", "price": 199.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 9, "product": "Kids' Bunk Bed", "price": 349.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 10, "product": "Patio Swing Chair", "price": 169.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 11, "product": "Lounge Recliner", "price": 299.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 12, "product": "Bedside Table with Drawer", "price": 89.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 13, "product": "Sectional Sofa", "price": 799.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 14, "product": "Folding Dining Chairs (Set of 4)", "price": 129.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 15, "product": "Computer Workstation", "price": 189.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 16, "product": "Chest of Drawers", "price": 279.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 17, "product": "Vanity Dressing Table", "price": 219.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 18, "product": "Bar Stools (Set of 2)", "price": 99.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 19, "product": "Hanging Hammock Chair", "price": 79.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" },
+  { "id": 20, "product": "Folding Picnic Table", "price": 149.99, "image": "https://acdn.mitiendanube.com/stores/001/582/756/products/muebles105811-4e837f7bf4a28fd8dd16534055507395-640-0.jpg" }
 ]
