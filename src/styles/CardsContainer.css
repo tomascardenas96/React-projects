@@ -1,0 +1,12 @@
+.cards__container {
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+}
+
+.cards__container-list {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
