@@ -4,10 +4,16 @@ import Card from "./Card";
 import "../styles/CardsContainer.css";
 
 const CardsContainer = () => {
-  const { products, setCart } = useContext(dataContext);
+  const { products, setCart, cart } = useContext(dataContext);
 
   const addToCart = (product) => {
-    setCart((prev) => [...prev, product]);
+    const productFound = cart.find(item => item.name === product.name);
+    if(productFound) {
+      console.log(1)
+      setCart((prev) => [...prev, {...product, quantity: 0}]);
+    }
+
+    setCart((prev) => [...prev, {...product, quantity: 0}]);
   };
 
   return (

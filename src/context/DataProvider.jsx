@@ -5,6 +5,7 @@ export const dataContext = createContext();
 const DataProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
+  const [modalCart, setModalCart] = useState(false);
 
   useEffect(() => {
     try {
@@ -23,7 +24,7 @@ const DataProvider = ({ children }) => {
 
   return (
     <>
-    <dataContext.Provider value={{ products, cart, setProducts, setCart }}>
+    <dataContext.Provider value={{ products, cart, modalCart, setProducts, setCart, setModalCart }}>
         {children}
     </dataContext.Provider>
     </>

@@ -4,13 +4,14 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 header .header__container {
   width: 80%;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 15rem;
+  padding: 1.3rem 15rem;
   align-items: center;
   margin-bottom: 3rem;
   background: rgba(255, 255, 255, 0.11);
@@ -32,9 +33,34 @@ header .header__logo {
 }
 
 header .header__cart-icon {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 100%;
   outline: 2px solid rgba(255, 255, 255, 0.769);
   padding: 0.8rem;
   color: rgba(255, 255, 255, 0.769);
+  cursor: pointer;
+}
+
+.header__cart-modal {
+  display: flex;
+  width: 20rem;
+  position: absolute;
+  top: 5.5rem;
+  right: 15rem;
+  border-radius: .5rem;
+  background-color: white;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: .9rem;
+  gap: .7rem;
+}
+
+.modal__open-close {
+  display: none;
+}
+
+.header__added-modal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
