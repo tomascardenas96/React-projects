@@ -15,7 +15,7 @@ header .header__container {
   align-items: center;
   margin-bottom: 3rem;
   background: rgba(255, 255, 255, 0.11);
-  border-radius: 16px;
+  border-radius: 1rem;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(9.7px);
   -webkit-backdrop-filter: blur(9.7px);
@@ -23,7 +23,6 @@ header .header__container {
 
 header .header__logo {
   font-size: 3rem;
-  /* color: rgba(0, 0, 0, 0.574); */
   color: rgba(255, 255, 255, 0.769);
   font-family: "Poiret One", cursive;
   font-weight: lighter;
@@ -45,7 +44,7 @@ header .header__cart-icon {
   display: flex;
   width: 20rem;
   position: absolute;
-  top: 5.5rem;
+  top: 5rem;
   right: 15rem;
   border-radius: .5rem;
   background-color: white;
@@ -53,6 +52,7 @@ header .header__cart-icon {
   padding: 1rem;
   font-size: .9rem;
   gap: .7rem;
+  z-index: 1500;
 }
 
 .modal__open-close {
@@ -63,4 +63,8 @@ header .header__cart-icon {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.single-card__button {
+  border: 1px solid red;
 }

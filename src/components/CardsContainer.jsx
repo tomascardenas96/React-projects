@@ -7,13 +7,8 @@ const CardsContainer = () => {
   const { products, setCart, cart } = useContext(dataContext);
 
   const addToCart = (product) => {
-    const productFound = cart.find(item => item.name === product.name);
-    if(productFound) {
-      console.log(1)
-      setCart((prev) => [...prev, {...product, quantity: 0}]);
-    }
-
-    setCart((prev) => [...prev, {...product, quantity: 0}]);
+      console.log(1);
+      setCart((prev) => [...prev, {...product, quantity :  0}]);
   };
 
   return (
@@ -27,7 +22,12 @@ const CardsContainer = () => {
                 image={product.image}
                 price={product.price}
               />
-              <button onClick={() => addToCart(product)} className="single-card__button">Add to cart</button>
+              <button
+                onClick={() => addToCart(product)}
+                className="single-card__button"
+              >
+                Add to cart
+              </button>
             </div>
           ))}
         </div>
